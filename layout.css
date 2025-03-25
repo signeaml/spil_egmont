@@ -1,0 +1,92 @@
+@media (min-width: 800px) {
+  .grid_skaerme,
+  .grid_grafik {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 15px;
+  }
+  .ide_billede {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .ideudvikling {
+    display: grid;
+    grid-column: 2/3;
+  }
+  .farver_billede {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  #grid_teknik1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    gap: 15px;
+    margin: 40px;
+  }
+  #grid_teknik2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+    gap: 15px;
+    margin: 40px;
+  }
+
+  .grid_skitser {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 15px;
+  }
+  .grid_ui,
+  .logoer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 15px;
+  }
+  .grid_figurer,
+  .grid_lyde {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 15px;
+  }
+  .forside_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 15px;
+  }
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    padding-top: 15px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+  h1 {
+    font-size: 50px;
+    text-align: start;
+  }
+  ul#menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-family: "Titan One", sans-serif;
+    font-size: 30px;
+  }
+  ul#menu li a {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    color: #fbb03b;
+    text-transform: uppercase;
+  }
+}

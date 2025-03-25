@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="generel.css" />
+    <link rel="stylesheet" href="layout.css" />
+    <link rel="stylesheet" href="animation.css" />
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <title>Spil</title>
+
+    <body>
+        <header>
+       
+        </header>
+        <main>
+          <h1>Egmontspillet</h1>
+        </main>
+        <div id="screen">
+            <div id="game">
+              <div id="game_background"></div>
+              <div id="game_elements">
+                <div id="abe_container">
+                  <div id="abe_sprite">
+                    <img src="img/vand.svg" alt="abe">
+                  </div>
+                </div>
+                <div id="abe_container2">
+                  <div id="abe_sprite2">
+                    <img src="img/vand.svg" alt="abe">
+                  </div>
+                </div>
+                <div id="abe_container3">
+                  <div id="abe_sprite3">
+                    <img src="img/vand.svg" alt="abe">
+                  </div>
+                </div>
+                <div id="noed_container">
+                  <div id="noed_sprite">
+                    <img src="img/oel.svg" alt="Nød">
+                  </div>
+                </div>
+                <div id="noed_container2">
+                  <div id="noed_sprite2">
+                    <img src="img/oel.svg" alt="Nød">
+                  </div>
+                </div>
+                <div id="noed_container3">
+                  <div id="noed_sprite3">
+                    <img src="img/oel.svg" alt="Nød">
+                  </div>
+                </div>
+              </div>
+              <div id="game_foreground"></div>
+              <div id="game_ui">
+                <div id="score_board">
+                  <h4></h4>
+                  <img src="img/oel.svg" alt="point">
+                </div>
+                <div id="life_board">
+                  <h4 id="liv">3</h4>
+                  <img src="img/liv.svg" alt="liv">
+                </div>
+                <div id="time_board">
+                  <div id="fyld" class=""></div>
+                  <div id="outline"></div>
+                </div>
+              </div>
+            </div>
+            <div id="start" class="hide">
+            <div id="start_knap">
+              <img src="img/play.svg" alt="start">
+            </div>
+    
+            </div>
+            <div id="game_over" class="hide">
+              <div id="game_over_points">Du fik ?? points</div>
+              <div id="start_igen1">
+                <img src="img/spil_igen.svg" alt="spil igen">
+              </div>
+              <div id="startside_knap1">
+                <img src="img/startside_knap.svg" alt="startside knap">
+              </div>
+            </div>
+            <div id="level_complete" class="hide">
+              <div id="level_complete_points">Du fik ?? points</div>
+              <div id="start_igen2">
+                <img src="img/spil_igen.svg" alt="spil igen">
+              </div>
+              <div id="startside_knap2">
+                <img src="img/startside_knap.svg" alt="startside knap">
+              </div>
+            </div>
+            <div id="info_screen" class="hide">
+              <div id="start_knap2">
+                <img src="img/play.svg" alt="start">
+              </div>
+          </div>
+          <div id="sounds">
+          <audio src="sounds/abelyd.mp3" id="abelyd"></audio>
+          <audio src="sounds/kokoslyd.mp3" id="kokoslyd"></audio>
+          <audio src="sounds/watermusic.mp3" id="vandmusik"></audio>
+          </div>
+        
+          <script src="script.js"></script>
+        </div>
+      </body>
+</html>
